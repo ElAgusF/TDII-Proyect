@@ -20,7 +20,7 @@ int main (){
 		break;
 		case 4: printf("Ejecutando La Carrera");
 		break;
-		default: printf("Chau pa");
+		default: printf("Adios");
 		}
 	
 	return 0;
