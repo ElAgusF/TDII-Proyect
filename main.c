@@ -1,6 +1,14 @@
 #include <stdio.h>
+#include <unistd.h>
+#include <termios.h>
+#include <stdlib.h>
+#include <string.h>
+void password();
+
 
 int main (){
+	//ingreso
+	password();
 	
 	//menu
 	int secuencia;
@@ -12,16 +20,18 @@ int main (){
 	
 	//etapa selectora
 	switch(secuencia){
-		case 1: printf("Ejecutando Auto Fantástico");
+		case 1: printf("Ejecutando Auto Fantástico\n");
 		break;
-		case 2: printf("Ejecutando El Choque");
+		case 2: printf("Ejecutando El Choque\n");
 		break;
-		case 3: printf("Ejecutando La Apilada");
+		case 3: printf("Ejecutando La Apilada\n");
 		break;
-		case 4: printf("Ejecutando La Carrera");
+		case 4: printf("Ejecutando La Carrera\n");
 		break;
-		default: printf("Chau pa");
+		default: printf("Chau pa\n");
 		}
 	
 	return 0;
 	}
+	
+
