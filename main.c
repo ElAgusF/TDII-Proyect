@@ -127,7 +127,7 @@ int main (){
 		break;
 		default: 
 			system("clear");
-			printf("Chau pa\n");
+			printf("Adios\n");
 		}
 	
 	return 0;
